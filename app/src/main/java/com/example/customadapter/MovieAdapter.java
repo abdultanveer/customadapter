@@ -20,6 +20,9 @@ public class MovieAdapter extends BaseAdapter  {
     String[] imagesUrl;
     LayoutInflater inflater;
     Context mContext;
+    int[] images = new int[]{
+            R.drawable.ic_launcher_background,
+            R.drawable.ic_launcher_foreground};
 
     public MovieAdapter(String[] movie_title, String[] img_urls, Context context) {
         movies = movie_title;
